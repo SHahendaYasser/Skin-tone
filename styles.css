@@ -1,0 +1,62 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+body {
+    line-height: 2;
+}
+
+button {
+    border-radius:8px;
+    padding: flex;
+    display:flex;
+    background-color:black;
+    border: 2px solid black;
+    font-weight:bold;
+    color:white;
+}
+button:hover {
+    cursor:pointer;
+    font-weight:bold;
+}
+h2 {
+    text-align:center;
+    color:black;
+}
+.pale {
+    color:#fff0e1;
+}
+.light {
+    color:#F1C27D;
+}
+.medium {
+    color:#E0Ac69;
+}
+.olive {
+    color:#C68642;
+}
+.bronze {
+    color:#8D5524;
+}
+.dark {
+    color:#3D2314;
+}
+html {
+    background-image: linear-gradient(to bottom,  whitesmoke, white);
+    min-height: 100vh;
+    margin:0;
+}
+img {
+    display:flex;
+    border-radius:12px;
+    margin-top:18px;
+    width:80%;
+    margin:10px auto;
+}
+select {
+    background-color:black;
+    border-radius:5px;
+    border:2px solid black;
+    font-weight:900;
+    width:fit-content;
+    text-align:center;
+    margin: 10px auto;
+    color:whitesmoke;
+}
